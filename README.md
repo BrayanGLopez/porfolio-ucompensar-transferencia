@@ -2,7 +2,7 @@
 
 ## Introducción
 
-¡Bienvenidos al portafolio web de **Karen Tapias** y **Brayan López**! Este proyecto fue realizado como parte del curso **Diseño y Desarrollo Web** del **2024-2** en **Fundación Universitaria Compensar**. El objetivo de este portafolio es mostrar nuestras habilidades en desarrollo web, diseño y creación de proyectos interactivos.
+¡Bienvenidos al portafolio web de **Karen Tapias** y **Brayan López**! Este proyecto fue realizado como parte del curso **Diseño y Desarrollo Web** del **2024-2** en **Fundación Universitaria Compensar**, bajo la orientación del profesor **Cristian Alejandro Amaya Fernández**. El objetivo de este portafolio es mostrar nuestras habilidades en desarrollo web, diseño y creación de proyectos interactivos.
 
 **Integrantes del proyecto:**
 
@@ -17,34 +17,41 @@ Este portafolio está desarrollado con tecnologías como **HTML**, **CSS**, **Ja
 
 - **Diseño responsivo:** Este portafolio se adapta a diferentes tamaños de pantalla, desde dispositivos móviles hasta escritorios.
 - **Interactividad:** Incluye funcionalidades como la búsqueda dinámica y el cambio de colores según la acción del usuario.
-- **Diseño en 3D:** Elementos del portafolio, como botones e imágenes, cuentan con efectos visuales en 3D.
-- **Enlaces a redes sociales:** Puedes encontrar nuestras redes sociales y formas de contactarnos directamente desde el portafolio.
+- **Diseño en 3D:** Elementos del portafolio, como botones e imágenes, tienen efectos interactivos en 3D.
+  
+## Imágenes de los integrantes
 
----
+### Karen Tapias
+![Imagen de Karen Tapias](images/mia.jpg)
+Karen es una apasionada por el desarrollo web y la programación. Actualmente estudia **Ingeniería de Sistemas** y tiene un fuerte interés en el diseño y la usabilidad web.
 
-## Tecnologías Usadas
-
-| Tecnología       | Descripción                             |
-|------------------|-----------------------------------------|
-| **HTML5**        | Lenguaje de marcado para la estructura de la página web. |
-| **CSS3**         | Estilos y diseño visual del sitio.      |
-| **JavaScript**   | Funcionalidad interactiva y dinámica del sitio. |
-| **Bootstrap**    | Framework para un diseño responsive y rápido. |
-| **GitHub**       | Plataforma para alojar y gestionar el código fuente. |
-
----
+### Brayan López
+![Imagen de Brayan López](images/brayan.jpg)
+Brayan es un entusiasta del desarrollo front-end. Se especializa en el diseño y creación de interfaces atractivas y funcionales, con un enfoque en la experiencia del usuario.
 
 ## Funcionalidades
 
-### 1. **Búsqueda Dinámica**
+| Funcionalidad          | Descripción                                                                                  |
+|------------------------|----------------------------------------------------------------------------------------------|
+| **Búsqueda dinámica**   | Permite buscar contenido específico dentro del portafolio y destaca los resultados en tiempo real. |
+| **Cambio de colores**   | El fondo del sitio cambia a tonalidades de rosado al pasar el cursor sobre los elementos.      |
+| **Animaciones 3D**      | Se agregaron animaciones en 3D para mejorar la interactividad y visualización del contenido.   |
 
-¡Busca lo que necesites en nuestro portafolio! Usa la barra de búsqueda para encontrar información sobre nuestros proyectos o habilidades.
+## Tecnología Utilizada
 
-### 2. **Interactividad y Efectos 3D**
+- **HTML5**: Estructuración semántica de la página.
+- **CSS3**: Estilos modernos con diseño responsivo.
+- **JavaScript**: Funcionalidades interactivas y dinámicas.
+- **Bootstrap**: Framework para diseño de interfaces responsivas.
 
-Los elementos de la página, como botones y enlaces, tienen un **efecto 3D** cuando el usuario interactúa con ellos. Estos efectos mejoran la experiencia de navegación.
+## Agradecimientos
 
-**Ejemplo de botón interactivo:**
+Agradecemos a **Cristian Alejandro Amaya Fernández**, nuestro profesor, por su valiosa orientación durante el desarrollo de este proyecto.
 
-```html
-<button class="btn-3d">Ver Proyectos</button>
+---
+
+**© 2024 Karen Tapias y Brayan López - Todos los derechos reservados**
+
+
+
+
