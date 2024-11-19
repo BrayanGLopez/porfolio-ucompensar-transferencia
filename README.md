@@ -26,7 +26,7 @@ Este portafolio está desarrollado con tecnologías como **HTML**, **CSS**, **Ja
 Karen es una apasionada por el desarrollo web y la programación. Actualmente estudia **Ingeniería de Sistemas** y tiene un fuerte interés en el diseño y la usabilidad web.
 
 ### Brayan López
-![Imagen de Brayan López](images/brayan.jpg)
+![Imagen de Brayan López](images/brayan.png)
 Brayan es un entusiasta del desarrollo front-end. Se especializa en el diseño y creación de interfaces atractivas y funcionales, con un enfoque en la experiencia del usuario.
 
 ## Funcionalidades
