@@ -1,0 +1,344 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+.navbar{
+    box-shadow: 0 0 5px white;
+}
+
+.logo{
+    margin-left: 10%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    color: rgb(253, 92, 85);
+}
+
+.logo:hover{
+    color: rgb(253, 92, 85);
+}
+
+.navbar-collapse{
+    margin-right: 10%;
+    justify-content: flex-end;
+}
+
+.nav-link{
+    color: rgb(253, 92, 85);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.navbar-nav{
+    gap: 35px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+#welcome-section{
+    background: linear-gradient(180deg,#313651,black);
+}
+
+.image{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid rgb(253, 92, 85);
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.image img{
+    width: 100%;
+    position: relative;
+    right: 0%;
+    bottom: 0%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 3%;
+}
+
+#welcome-section h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.5rem;
+    color: rgb(255, 80, 71);
+    text-align: center;
+}
+
+#welcome-section h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-shadow: -1px 2px 3px rgb(255, 80, 71);
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
+.tecnologias{
+    position: absolute;
+    top: 100px;
+    left: 11%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tecno{
+    font-size: 5.5rem;
+    color: white;
+}
+
+.tecno:hover{
+    transform: scale(1.2);
+}
+
+#about-me{
+    background: linear-gradient(180deg,black,#292c3e);
+}
+
+.info-der{
+    color: white;
+    overflow: auto;
+    padding: 100px;
+}
+
+.info-der h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.5rem;
+    color: rgb(255, 80, 71);
+}
+
+.info-der hr{
+    margin-top: 15px;
+    border-color: rgb(255, 80, 71);
+}
+
+.info-der p{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+.services{
+    width: 100%;
+}
+
+.services h3{
+    color: rgb(255, 80, 71);
+    margin-top: 15px;
+    font-size: 2.5rem;
+}
+
+.services ul{
+    margin-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.services ul li{
+    width: 50%;
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+}
+
+.info-der a{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 200px;
+    height: 35px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 80, 71);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+    animation: saltar 3s infinite;
+    align-self: center;
+}
+
+@keyframes saltar {
+    0%{
+        transform: scale(1.1);
+    }50%{
+        transform: scale(1);
+    }100%{
+        transform: scale(1.1);
+    }    
+}
+
+#projects{
+    background: linear-gradient(360deg,black,#292c3e);
+}
+
+#projects h1{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 80, 71);
+    margin-top: 35%;
+}
+
+.slider{
+    margin-top: 2%;
+}
+
+.slider a{
+    margin-bottom: 50px;
+    font-size: 1.6rem;
+    background-color: rgb(73, 128, 176);
+    animation: brincar 1.5s infinite;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+@keyframes brincar {
+
+    0%{
+        transform: translateY(35px);
+    }50%{
+        transform: translateY(17px);
+    }100%{
+        transform: translateY(35px);
+    }   
+}
+
+.slider a:hover{
+    background-color: rgb(73, 164, 217);
+}
+
+.img-proyecto{
+    margin-top: 8px;
+    max-width: 100px;
+}
+
+.descripcion-proyecto{
+    font-size: 1rem;
+}
+
+.descripcion-proyecto h5{
+    font-size: 1.8rem;
+}
+
+.descripcion-proyecto a{
+    font-size: 1.6rem;
+    background-color: rgb(255, 80, 71);
+}
+
+.descripcion-proyecto a:hover{
+    background-color: rgb(206, 70, 63);
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+}
+footer h2{
+    font-size: 1.6rem;
+    color: rgb(255, 80, 71);
+}
+
+/* Media query*/
+
+@media screen and (max-width: 576px) {
+
+    .navbar-toggler{
+        margin-right: 10%;
+    }
+    .navbar{
+        height: unset;
+    }
+
+    .navbar-toggler{
+        border: 1px solid rgb(255, 80, 71);
+    }   
+
+    .bi-list{
+        font-size: 30px;
+        color: rgb(255, 80, 71);
+    }
+
+    .navbar-nav{
+        gap: unset;
+    }
+
+    .image{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 12%;
+    }
+
+    #welcome-section h1{
+        font-size: 30px;
+    }
+
+    .tecnologias{
+        position: unset;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    
+    .tecno{
+        font-size: 35px;
+        color: white;
+    }
+
+    .info-der{
+        padding: 30px;
+    }
+
+
+    #projects h1{
+        margin: 80px 0 30px 0;
+    }
+
+    #projects{
+        min-height: unset;
+        padding-bottom: 50px;
+    }
+
+    .slider a{
+        margin-bottom: 10px;
+        font-size: 1rem;
+        animation: none;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .img-izq{
+        padding: 50px;
+    }
+}
